@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 60%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.item {
+  width: 18%;
+  display: flex;
+  border: 1px solid paleturquoise;
+  margin-bottom: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  flex-direction: column
+}
+
+.gallary img {
+  width: 50px;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.contet img {
+  width: 100%;
+}
+
+.contet {
+  width: 100%;
+  background: #fbfbfb;
+  padding: 10px;
+}
+
+.gallary {
+  width: 100px;
+  background-color: #fbfbfb;
+  border-right: 1px solid #0000002b;
+  order: 2;
+}
